@@ -14,7 +14,7 @@ Even as a number of parameters are increased, required resources are much more i
 Then we get best parameters $a_n$ series values for using least-squares method with assumed $P$ and $t_0$ are constant values. 
 For measuring minimum of $\chi^2$ which indicator calculating results of measuring best parameters, it needs to find $a_n$ parameters when derivative of $\chi^2$ became zero.
 That shows.   
-$$ \frac{\partial}{\partial a} \sum{(I(\theta)-M(\theta)})^2=0 $$   
+$\frac{\partial}{\partial a} \sum{(I(\theta)-M(\theta)})^2=0$   
 It can show as matrix.   
 
 $$\eqalign{
@@ -42,8 +42,7 @@ M = \left[
     \sum M(\theta)C(2b) \\
     \sum M(\theta)C(3b) \\
 \end{array}
-\right]
-}$$   
+\right]}$$   
 
 
 ## Gradient Descent Fitting   

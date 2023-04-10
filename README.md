@@ -17,7 +17,7 @@ That shows.
 $\frac{\partial}{\partial a} \sum{(I(\theta)-M(\theta)})^2=0$   
 It can show as matrix.   
 
-$$\eqalign{
+$$
 F\times A = M,\\
 F = \left[
 \begin{array}{cc}
@@ -34,7 +34,7 @@ A = \left[
     a_2\\
     a_3\\
 \end{array}
-\right],\;
+\right],
 M = \left[
 \begin{array}{cc}
     \sum M(\theta) \\
@@ -42,7 +42,8 @@ M = \left[
     \sum M(\theta)C(2b) \\
     \sum M(\theta)C(3b) \\
 \end{array}
-\right]}$$   
+\right]
+$$   
 
 
 ## Gradient Descent Fitting   

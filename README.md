@@ -1,12 +1,16 @@
 # Iteration of Light Curve Fitting   
-Iterate least-squares and gradient-descent to search best parameters process for fitting light curve as Fourier series. Fourier series form is determined by 1993 SM Rucinski.   
+Iterate least-squares and gradient-descent to search best parameters process for fitting light curve as Fourier series. Fourier series form is determined by 1993 SM Rucinski.
+
 $$
 I(\theta) = \sum{a_n cos(2 \pi n \theta)}
-$$   
+$$
+
 Adjust period $P$ and initial time $t_0$ in cosin function.   
+
 $$
 I(\theta) = \sum{a_n \frac{cos(2 \pi n (\theta - t_0))}{P}}
-$$   
+$$
+
 For easily calculate best parameters, Seperate finding process as two. 
 One is least-squares process for measuring coefficient parameters of fourier series as $a_n$. 
 And other is gradienr descent process for measuring period and initial time parameters.   

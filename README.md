@@ -19,7 +19,10 @@ For measuring minimum of $\chi^2$ which indicator calculating results of measuri
 That shows.   
 
 $$
-F\times A = M,\\
+F\times A = M,
+$$
+
+$$
 F = \left[
 \begin{array}{cc}
     \sum 1&\sum C(b)&\sum C(2b)&\sum C(3b) \\

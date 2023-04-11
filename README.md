@@ -30,7 +30,10 @@ F = \left[
 \sum C(2b)&\sum C(b)C(2b)&\sum C(2b)^2&\sum C(2b)C(3b) \\
 \sum C(3b)&\sum C(b)C(3b)&\sum C(2b)C(3b)&\sum C(3b)^2 \\
 \end{array}
-\right],\\
+\right],
+$$
+
+$$
 A = \left[
 \begin{array}{cc}
     a_0\\
@@ -75,11 +78,12 @@ python gradi_descent.py
 Process calculate $\chi^2$ values as matrix array, Then it shows about like this   
 |Finding step|Entire finding path|
 |-|-|
-|![image](./readme_image/finding_step.gif)|![image](./readme_image/finding_path.png)|   
+|![image](./readme_image/finding_step.gif)|![image](./readme_image/finding_path.png)|
+
 And results plot and graph show   
 |Light Curve|$\chi^2$ each point|
 |-|-|
-|![image](./readme_image/gradi_descent_light_curve.png)|![image](./readme_image/gradi_descent_chi_square.png)|   
+|![image](./readme_image/gradi_descent_light_curve.png)|![image](./readme_image/gradi_descent_chi_square.png)|
    
 ## Iteration   
 It's not enough just once use each process to get best parameters values. 
@@ -94,10 +98,12 @@ It shows
 |-|-|
 |![image](./results_7/0/least_square_light_curve.png)|![image](./results_7/0/gradi_descent_light_curve.png)|
 |![image](./results_7/1/least_square_light_curve.png)|![image](./results_7/1/gradi_descent_light_curve.png)|
-|![image](./results_7/2/least_square_light_curve.png)|![image](./results_7/2/gradi_descent_light_curve.png)|   
+|![image](./results_7/2/least_square_light_curve.png)|![image](./results_7/2/gradi_descent_light_curve.png)|
+   
 $a_n$ series number can modify with add option on least-squares process code.   
 And compare different $a_n$ series number as 7 and 24.   
 |$n=7$|$n=24$|
 |-|-|
-|![image](./results_7/2/gradi_descent_light_curve.png)|![image](./results_24/2/gradi_descent_light_curve.png)|   
+|![image](./results_7/2/gradi_descent_light_curve.png)|![image](./results_24/2/gradi_descent_light_curve.png)|
+   
 It needs careful about overfitting when using many $a_n$ series values.

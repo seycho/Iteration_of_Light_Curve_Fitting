@@ -17,14 +17,9 @@ Even as a number of parameters are increased, required resources are much more i
 Then we get best parameters $a_n$ series values for using least-squares method with assumed $P$ and $t_0$ are constant values. 
 For measuring minimum of $\chi^2$ which indicator calculating results of measuring best parameters, it needs to find $a_n$ parameters when derivative of $\chi^2$ became zero.   
 That shows.   
+
 $$
-\frac{\partial}{\partial a} \sum{(I(\theta)-M(\theta)})^2=0
-$$   
-It can show as matrix.   
-$$
-F\times A = M
-$$   
-$$
+F\times A = M,\\
 F = \left[
 \begin{array}{cc}
     \sum 1&\sum C(b)&\sum C(2b)&\sum C(3b) \\
@@ -32,8 +27,8 @@ F = \left[
 \sum C(2b)&\sum C(b)C(2b)&\sum C(2b)^2&\sum C(2b)C(3b) \\
 \sum C(3b)&\sum C(b)C(3b)&\sum C(2b)C(3b)&\sum C(3b)^2 \\
 \end{array}
-\right] $$
-$$ A = \left[
+\right],\\
+A = \left[
 \begin{array}{cc}
     a_0\\
     a_1\\
@@ -50,6 +45,7 @@ M = \left[
 \end{array}
 \right]
 $$   
+
 $a_n$ series parameters are obtained by solving $A$ matrix.   
 And that used   
 ```python
